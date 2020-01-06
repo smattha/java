@@ -1,4 +1,6 @@
-package  datatypes.objects;;
+package datatypes.objects;
+
+;
 
 /***
  * @author MAtthaiakis Stergios

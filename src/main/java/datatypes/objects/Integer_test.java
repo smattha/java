@@ -1,13 +1,13 @@
-package  datatypes.objects;;
+package datatypes.objects;
+
+;
 
 /***
  * @author MAtthaiakis Stergios
  */
 
-public class Integer_test
-{
-    public static void main(String args[])
-    {
+public class Integer_test {
+    public static void main(String args[]) {
         System.out.println("--------------------------------------------------------");
         System.out.println("Integer wrapper simple test");
         int b = 55;
