@@ -1,4 +1,4 @@
-package constructor;
+package constructor.radio;
 
 /**
  * @author Matthaiakis Stergios
