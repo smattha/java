@@ -4,6 +4,8 @@ public class BallonTest {
 
 
     public static void main(String[] args) {
+        System.out.println("--------------------------------------------------------");
+        System.out.println("Pass object as arguments in methods");
 
         Balloon red = new Balloon("Red"); //memory reference 50
         Balloon blue = new Balloon("Blue"); //memory reference 100
