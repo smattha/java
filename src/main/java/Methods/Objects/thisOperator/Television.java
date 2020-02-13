@@ -29,7 +29,7 @@ public class Television
 
 	public Television(int c)
 	{
-		this(c, 10);// this must be the first command of the constructor 
+		this(c, 10);// this must be the first command of the constructor
 		System.out.println("--------------------------------------------------------");
 		System.out.println("Inside one-arg constructor");
 	}

@@ -21,8 +21,6 @@ public class Sum {
         System.out.println("Sum int int int ");
         return (x + y + z);
     }
-
-    // Overloaded sum(). This sum takes two double parameters
     public double sum(double x, double y)
     {
         System.out.println("--------------------------------------------------------");
