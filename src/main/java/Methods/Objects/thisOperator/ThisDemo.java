@@ -1,17 +1,9 @@
-/*
- * ThisDemo.java
- *
- * Created on 13 Απρίλιος 2007, 3:38 μμ
- *
- * To change this template, choose Tools | Template Manager
- * and open the template in the editor.
- */
 
-package ThisDemo;
+
+package Methods.Objects.thisOperator;
 
 /**
- *
- * @author Michail
+ * @author Matthaiakis Stergios
  */
 public class ThisDemo
 {
