@@ -27,7 +27,7 @@ class BigScreenTV extends Television
 
 		aspectRatio = r;
 		size = s;
-		
+
 	}
 
 	BigScreenTV(String r, short s, int channel, int volume)
