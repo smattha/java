@@ -18,10 +18,20 @@ public class Employee
 	int SSN;
 	int number;
 
+	@Override
+	public String toString() {
+		return "Employee{" +
+				"name='" + name + '\'' +
+				", address='" + address + '\'' +
+				", SSN=" + SSN +
+				", number=" + number +
+				'}';
+	}
+
 	public void mailCheck()
 	{
 		System.out.println("--------------------------------------------------------");
-		System.out.println("Inside Employee mailCheck: " + super.toString());
+		System.out.println("Inside Employee mailCheck: " + super.toString()+" custom string(): "+toString());
 		System.out.println("Mailing a check to " + this.name + " " + this.address);
 	}
 }
