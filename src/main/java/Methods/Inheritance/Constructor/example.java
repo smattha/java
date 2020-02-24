@@ -7,6 +7,15 @@ package Methods.Inheritance.Constructor;
 public class example {
 
 
+    public void main(String[] args) {
+        System.out.println("--------------------------------------------------------");
+        System.out.println("Inheritance Simple Example");
+        System.out.println("--------------------------------------------------------");
+
+        Derived d = new Derived(10, 20);
+        d.Display();
+    }
+
     class Base {
 
         int x;
@@ -28,15 +37,6 @@ public class example {
             System.out.println("x = " + x + ", y = " + y);
         }
     }
-
-    public void main(String[] args) {
-        System.out.println("--------------------------------------------------------");
-        System.out.println("Inheritance Simple Example");
-        System.out.println("--------------------------------------------------------");
-
-        Derived d = new Derived(10, 20);
-            d.Display();
-        }
 
 
 }

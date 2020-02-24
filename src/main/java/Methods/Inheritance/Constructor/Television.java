@@ -1,4 +1,3 @@
-
 package Methods.Inheritance.Constructor;
 
 /**
@@ -6,20 +5,17 @@ package Methods.Inheritance.Constructor;
  */
 
 
-class Television
-{
-	private int channel, volume;
+class Television {
+    private int channel, volume;
 
-	Television()
-	{
-		this(4,5);
-		System.out.println("Inside Television()");
-	}
+    Television() {
+        this(4, 5);
+        System.out.println("Inside Television()");
+    }
 
-	private Television(int c, int v)
-	{
-		System.out.println("Inside Television(int, int)");
-		channel = c;
-		volume = v;
-	}
+    private Television(int c, int v) {
+        System.out.println("Inside Television(int, int)");
+        channel = c;
+        volume = v;
+    }
 }

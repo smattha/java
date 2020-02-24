@@ -6,19 +6,16 @@
 package Methods.Inheritance.Constructor;
 
 /**
- *
  * @author Michail
  */
-class BigScreenTV extends Television
-{
-	private String aspectRatio;
-	private short size;
+class BigScreenTV extends Television {
+    private String aspectRatio;
+    private short size;
 
-	public BigScreenTV()
-	{
-		super();
-		aspectRatio = "unknown";
-		size = 40;
-		System.out.println("Inside BigScreenTV()");
-	}
+    public BigScreenTV() {
+        super();
+        aspectRatio = "unknown";
+        size = 40;
+        System.out.println("Inside BigScreenTV()");
+    }
 }
