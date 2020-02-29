@@ -14,7 +14,7 @@ public class TestPassByValue {
     int num1 = 1;
     int num2 = 2;
 
-    System.out.println("Before invoking the swap method, num1 is " +
+    System.out.println("Before invofking the swap method, num1 is " +
       num1 + " and num2 is " + num2);
 
     // Invoke the swap method to attempt to swap two variables
