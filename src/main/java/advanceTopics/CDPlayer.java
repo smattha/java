@@ -1,11 +1,4 @@
-/*
- * CDPlayer.java
- *
- * Created on 10 ������� 2007, 7:27 ��
- *
- * To change this template, choose Tools | Template Manager
- * and open the template in the editor.
- */
+
 
 package advanceTopics;
 
