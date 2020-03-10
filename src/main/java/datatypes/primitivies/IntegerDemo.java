@@ -2,9 +2,10 @@ package datatypes.primitivies;
 
 import java.lang.instrument.Instrumentation;
 
-/**
- * @author MAtthaiakis Stergios
+/*
+ * @author Matthaiakis Stergios
  */
+
 public class IntegerDemo {
     private static Instrumentation instrumentation;
 
