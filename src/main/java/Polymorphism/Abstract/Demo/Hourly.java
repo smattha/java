@@ -1,4 +1,4 @@
-package Polymorphism.Abstract;
+package Polymorphism.Abstract.Demo;
 
 /**
  * @author Matthaiakis Stergios
