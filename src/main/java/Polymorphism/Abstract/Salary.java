@@ -2,7 +2,6 @@ package Polymorphism.Abstract;
 /**
  * @author Matthaiakis Stergios
  */
-
 public class Salary extends Employee
 {
 	private double salary;	//annual salary
@@ -12,13 +11,11 @@ public class Salary extends Employee
 		super(name, address, number);
 		setSalary(salary);
 	}
-
 	public void mailCheck()
 	{
 		System.out.println("Within mailCheck of Salary class");
 		System.out.println("Mailing check to " + getName() + " with salary " + salary);
 	}
-
 	public double getSalary()
 	{
 		return salary;
