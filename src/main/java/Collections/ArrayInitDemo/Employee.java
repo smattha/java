@@ -4,7 +4,6 @@ package Collections.ArrayInitDemo;
  * @author Matthaiakis Stergios
  */
 
-
 public class Employee
 {
 	public String name;
