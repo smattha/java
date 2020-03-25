@@ -4,10 +4,11 @@ public class Balloon {
 
     private String color;
 
-    public Balloon(){}
+    public Balloon() {
+    }
 
-    public Balloon(String c){
-        this.color=c;
+    public Balloon(String c) {
+        this.color = c;
     }
 
     public String getColor() {

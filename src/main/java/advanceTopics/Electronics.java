@@ -12,12 +12,10 @@ package advanceTopics;
 /**
  * @author MAtthaiakis Stergios
  */
-public class Electronics
-{
-	public Electronics()
-	{
+public class Electronics {
+    public Electronics() {
 
-		System.out.println("--------------------------------------------------------");
-		System.out.println("Constructing an Electronics");
-	}
+        System.out.println("--------------------------------------------------------");
+        System.out.println("Constructing an Electronics");
+    }
 }

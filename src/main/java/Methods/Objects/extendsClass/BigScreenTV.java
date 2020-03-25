@@ -8,19 +8,18 @@
  */
 
 package Methods.Objects.extendsClass;
+
 /**
  * @author Matthaiakis Stergios
  */
-public class BigScreenTV extends Television
-{
-	public String aspectRatio;
-	public short size;
+public class BigScreenTV extends Television {
+    public String aspectRatio;
+    public short size;
 
-	public BigScreenTV()
-	{
-		super();
-		aspectRatio = "unknown";
-		size = 40;
-		System.out.println("Inside BigScreenTV()");
-	}
+    public BigScreenTV() {
+        super();
+        aspectRatio = "unknown";
+        size = 40;
+        System.out.println("Inside BigScreenTV()");
+    }
 }

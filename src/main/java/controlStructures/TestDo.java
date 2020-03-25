@@ -7,7 +7,9 @@ package controlStructures;
 import javax.swing.*;
 
 public class TestDo {
-    /** Main method */
+    /**
+     * Main method
+     */
     public static void main(String[] args) {
         System.out.println("--------------------------------------------------------");
         System.out.println("Do");

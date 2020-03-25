@@ -20,6 +20,6 @@ public class Employee {
     }
 
     double computePay() {
-    	return salary / 52;
+        return salary / 52;
     }
 }

@@ -13,16 +13,14 @@ package Methods.Objects.extendsClass;
  * @author Matthaiakis Stergios
  */
 
-public class ConstructorDemo
-{
-	public static void main(String [] args)
-	{
+public class ConstructorDemo {
+    public static void main(String[] args) {
         System.out.println("--------------------------------------------------------");
-		System.out.println("Constructing a big screen TV");
+        System.out.println("Constructing a big screen TV");
         System.out.println("--------------------------------------------------------");
 
-		BigScreenTV tv = new BigScreenTV();
+        BigScreenTV tv = new BigScreenTV();
 
-		System.out.println("Done constructing TV");
-	}
+        System.out.println("Done constructing TV");
+    }
 }

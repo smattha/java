@@ -12,15 +12,13 @@ package Methods.Inheritance.ToStringDemoV2;
 /**
  * @author MAtthaiakis Stergios
  */
-public class ToStringDemo
-{
-	public static void main(String [] args)
-	{
-		System.out.println("--------------------------------------------------------");
-		Radio radio = new Radio(7, 100.3, 'F');
+public class ToStringDemo {
+    public static void main(String[] args) {
+        System.out.println("--------------------------------------------------------");
+        Radio radio = new Radio(7, 100.3, 'F');
 
-		System.out.println("--------------------------------------------------------");
-		System.out.println("toString returns " + radio.toString());
-		System.out.println("Just printing the reference: " + radio);
-	}
+        System.out.println("--------------------------------------------------------");
+        System.out.println("toString returns " + radio.toString());
+        System.out.println("Just printing the reference: " + radio);
+    }
 }

@@ -11,11 +11,11 @@ public class BallonTest {
         Balloon blue = new Balloon("Blue"); //memory reference 100
 
         swap(red, blue);
-        System.out.println("red color="+red.getColor());
-        System.out.println("blue color="+blue.getColor());
+        System.out.println("red color=" + red.getColor());
+        System.out.println("blue color=" + blue.getColor());
 
         foo(blue);
-        System.out.println("blue color="+blue.getColor());
+        System.out.println("blue color=" + blue.getColor());
 
     }
 
@@ -26,9 +26,9 @@ public class BallonTest {
     }
 
     //Generic swap method
-    public static void swap(Object o1, Object o2){
+    public static void swap(Object o1, Object o2) {
         Object temp = o1;
-        o1=o2;
-        o2=temp;
+        o1 = o2;
+        o2 = temp;
     }
 }

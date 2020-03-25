@@ -12,26 +12,22 @@ package advanceTopics.products.products;
 /**
  * @author MAtthaiakis Stergios
  */
-public class InventoryItem
-{
-	//public int partNumber;
-	public long partNumber;
-	private String description;
+public class InventoryItem {
+    //public int partNumber;
+    public long partNumber;
+    private String description;
 
-	public InventoryItem(long n, String d)
-	{
-		partNumber = n;
-		description = d;
-	}
+    public InventoryItem(long n, String d) {
+        partNumber = n;
+        description = d;
+    }
 
-	public InventoryItem()
-	{
-		partNumber = 0;
-		description = "N/A";
-	}
+    public InventoryItem() {
+        partNumber = 0;
+        description = "N/A";
+    }
 
-	public long getPartNumber()
-	{
-		return partNumber;
-	}
+    public long getPartNumber() {
+        return partNumber;
+    }
 }

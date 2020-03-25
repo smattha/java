@@ -13,12 +13,10 @@ package advanceTopics.StaticInitDemo;
  * @author Matthaiakis Stergios
  */
 
-public class StaticInitDemo
-{
-	public static void main(String [] args)
-	{
-		System.out.println("Inside main");
-		Radio r1= new Radio(1380);
-		Radio r2 = new Radio(850);
-	}
+public class StaticInitDemo {
+    public static void main(String[] args) {
+        System.out.println("Inside main");
+        Radio r1 = new Radio(1380);
+        Radio r2 = new Radio(850);
+    }
 }

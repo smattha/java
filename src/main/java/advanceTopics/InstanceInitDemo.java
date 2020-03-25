@@ -12,15 +12,13 @@ package advanceTopics;
 /**
  * @author MAtthaiakis Stergios
  */
-public class InstanceInitDemo
-{
-	public static void main(String [] args)
-	{
-		System.out.println("--------------------------------------------------------");
-		System.out.println("Inside main");
+public class InstanceInitDemo {
+    public static void main(String[] args) {
+        System.out.println("--------------------------------------------------------");
+        System.out.println("Inside main");
 
-		CDPlayer c1 = new CDPlayer(1);
-		System.out.println("\n\n\n");
-		CDPlayer c2 = new CDPlayer(7);
-	}
+        CDPlayer c1 = new CDPlayer(1);
+        System.out.println("\n\n\n");
+        CDPlayer c2 = new CDPlayer(7);
+    }
 }

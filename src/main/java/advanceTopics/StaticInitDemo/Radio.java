@@ -13,22 +13,20 @@ package advanceTopics.StaticInitDemo;
  * @author Matthaiakis Stergios
  */
 
-public class Radio
-{
-	private int station;
+public class Radio {
+    static {
+        System.out.println("Inside static initializer");
 
-	public Radio(int x)
-	{
-		System.out.println("Constructing a Radio");
-		station = x;
-	}
+    }
 
-	static{
-		System.out.println("Inside static initializer");
+    private int station;
 
-	}
+    {
+        System.out.println("Default initializer");
+    }
 
-	{
-		System.out.println("Default initializer");
-	}
+    public Radio(int x) {
+        System.out.println("Constructing a Radio");
+        station = x;
+    }
 }
