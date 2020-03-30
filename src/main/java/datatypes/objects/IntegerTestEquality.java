@@ -1,7 +1,5 @@
 package datatypes.objects;
 
-;
-
 /***
  * @author MAtthaiakis Stergios
  */

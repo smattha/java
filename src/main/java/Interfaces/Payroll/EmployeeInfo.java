@@ -5,11 +5,11 @@ package Interfaces.Payroll;
  */
 
 public interface EmployeeInfo {
-    public String getName();
+    String getName();
 
-    public void setName(String n);
+    void setName(String n);
 
-    public String getAddress();
+    String getAddress();
 
-    public void setAddress(String a);
+    void setAddress(String a);
 }

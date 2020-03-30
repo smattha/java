@@ -6,9 +6,9 @@ package Interfaces.Payroll;
 
 
 public interface Payable {
-    public void computePay(int hoursWorked);
+    void computePay(int hoursWorked);
 
-    public void mailCheck();
+    void mailCheck();
 
-    public double getWeeklyPay();
+    double getWeeklyPay();
 }

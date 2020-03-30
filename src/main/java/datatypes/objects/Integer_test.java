@@ -1,13 +1,11 @@
 package datatypes.objects;
 
-;
-
 /***
  * @author MAtthaiakis Stergios
  */
 
 public class Integer_test {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         System.out.println("--------------------------------------------------------");
         System.out.println("Integer wrapper simple test");
         int b = 55;
@@ -19,7 +17,7 @@ public class Integer_test {
 
         System.out.println("--------------------------------------------------------");
         System.out.println("to string method");
-        System.out.println("toString(b) = " + Integer.toString(b));
+        System.out.println("toString(b) = " + b);
 
         System.out.println("--------------------------------------------------------");
         System.out.println("hex,Oct,Bin methods");

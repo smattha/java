@@ -20,7 +20,7 @@ public class IterableTest {
             System.out.println(element);
         }
 
-        for (Iterator<String> iterator2 = myList.iterator(); iterator2.hasNext();) {
+        for (Iterator<String> iterator2 = myList.iterator(); iterator2.hasNext(); ) {
             String element = iterator2.next();
             System.out.println(element);
         }

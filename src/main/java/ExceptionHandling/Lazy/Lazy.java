@@ -1,41 +1,39 @@
-
-
 package ExceptionHandling.Lazy;
 
 /**
  * @author Matthaiakis Stergios
  */
-import java.io.*;
 
-public class Lazy
-{
-	private String fileName;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 
-	public Lazy(String name)
-	{
-		fileName = name;
-	}
+public class Lazy {
+    private String fileName;
 
-	public byte readOneByte()
-	{
-		FileInputStream file = null;
-		byte x = -1;
+    public Lazy(String name) {
+        fileName = name;
+    }
 
-		System.out.println("Opening file for reading...");
-		try {
-			file = new FileInputStream(fileName);
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		}
-		System.out.println("Just opened file: " + fileName);
-		System.out.println("Reading one byte from file...");
-		try {
-			x = (byte) file.read();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+    public byte readOneByte() {
+        FileInputStream file = null;
+        byte x = -1;
 
-		System.out.println("Just read " + x);
-		return x;
-	}
+        System.out.println("Opening file for reading...");
+        try {
+            file = new FileInputStream(fileName);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        System.out.println("Just opened file: " + fileName);
+        System.out.println("Reading one byte from file...");
+        try {
+            x = (byte) file.read();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println("Just read " + x);
+        return x;
+    }
 }

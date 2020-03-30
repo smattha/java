@@ -7,7 +7,7 @@ package Methods.Objects.Overload;
 public class Sum {
 
     // Driver code
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         System.out.println("--------------------------------------------------------");
         System.out.println("Overlad method");
         Sum s = new Sum();

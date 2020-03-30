@@ -12,7 +12,7 @@ public class StaticDemo {
         Employee e = new Employee("John Wayne", "101 Hollywood Blvd.", 123456789);
         System.out.println("Counter now = " + Employee.getCounter());
 
-        System.out.println("Using e: " + e.getCounter());
+        System.out.println("Using e: " + Employee.getCounter());
         System.out.println("Using e(using static): " + Employee.getCounter());
     }
 }

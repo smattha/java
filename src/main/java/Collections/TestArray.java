@@ -17,7 +17,7 @@ public class TestArray {
         // Read all numbers
         for (int i = 0; i < numbers.length; i++) {
             String numString = JOptionPane.showInputDialog(null,
-                    "Enter a number [" + String.valueOf(i) + "/" + numbers.length + "]:",
+                    "Enter a number [" + i + "/" + numbers.length + "]:",
                     "Example Input", JOptionPane.QUESTION_MESSAGE);
 
             // Convert string into integer

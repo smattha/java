@@ -1,7 +1,7 @@
 package Collections.SetTest;
 
-import java.util.Set;
 import java.util.HashSet;
+import java.util.Set;
 
 /**
  * @author Matthaiakis Stergios

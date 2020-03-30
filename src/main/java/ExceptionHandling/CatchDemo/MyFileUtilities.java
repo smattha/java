@@ -1,50 +1,45 @@
-
 package ExceptionHandling.CatchDemo;
 
 /**
  * @author Matthaiakis Stergios
  */
-import java.io.*;
 
-public class MyFileUtilities
-{
-	private String fileName;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 
-	public MyFileUtilities(String name)
-	{
-		fileName = name;
-	}
+public class MyFileUtilities {
+    private String fileName;
 
-	public byte readOneByte()
-	{
-		FileInputStream file = null;
+    public MyFileUtilities(String name) {
+        fileName = name;
+    }
 
-		try
-		{
-			System.out.println("Opening file for reading...");
-			file = new FileInputStream(fileName);
-		}catch(FileNotFoundException f)
-		{
-			System.out.println("** Could not find " + fileName + " **");
-			f.printStackTrace();
-			return -1;
-		}
+    public byte readOneByte() {
+        FileInputStream file = null;
 
-		System.out.println("Just opened file: " + fileName);
+        try {
+            System.out.println("Opening file for reading...");
+            file = new FileInputStream(fileName);
+        } catch (FileNotFoundException f) {
+            System.out.println("** Could not find " + fileName + " **");
+            f.printStackTrace();
+            return -1;
+        }
 
-		byte x = -1;
-		try
-		{
-			System.out.println("Reading one byte from file...");
-			x = (byte) file.read();
-		}catch(IOException i)
-		{
-			System.out.println("** Error reading one byte **");
-			i.printStackTrace();
-			return -1;
-		}
+        System.out.println("Just opened file: " + fileName);
 
-		System.out.println("Just read " + x);
-		return x;
-	}
+        byte x = -1;
+        try {
+            System.out.println("Reading one byte from file...");
+            x = (byte) file.read();
+        } catch (IOException i) {
+            System.out.println("** Error reading one byte **");
+            i.printStackTrace();
+            return -1;
+        }
+
+        System.out.println("Just read " + x);
+        return x;
+    }
 }
